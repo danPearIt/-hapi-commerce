@@ -1,0 +1,31 @@
+{
+  "name": "hapi-commerce",
+  "version": "0.0.1",
+  "description": "e-commerce solution hapi based",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danPearIt/hapi-commerce.git"
+  },
+  "keywords": [
+    "hapi",
+    "commerce"
+  ],
+  "author": "dan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/danPearIt/hapi-commerce/issues"
+  },
+  "homepage": "https://github.com/danPearIt/hapi-commerce#readme",
+  "dependencies": {
+    "boom": "^4.3.1",
+    "glob": "^7.1.1",
+    "hapi": "^16.1.1",
+    "hapi-auth-jwt": "^4.0.0",
+    "joi": "^10.4.1",
+    "mongoose": "^4.9.5"
+  }
+}
